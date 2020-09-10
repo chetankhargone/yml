@@ -1,6 +1,6 @@
 # YAML 
 
-Yaml stands for Ain't Markup Language. Originally it meant Yet Another Markup Language.
+Yaml stands for Ain't Markup Language. Originally it meant Yet Another Markup Language. <br/>
 Yml is a human-reable data-serialization language.
 
 ### Usage
@@ -24,17 +24,16 @@ Compare to Json/XML, it is more verbose & compact
 
 ### Examples
 ---
-a: 123 (integer)
-b: "Test" (string)
-c: 123.00 (float)
-d: !!float 123 (float via explicit data type prefixed by !!)
-e: !!str 123 (string via explicit type)
-f: true (or false)
+a: 123 (integer) <br/>
+b: "Test" (string) <br/>
+c: 123.00 (float) <br/>
+d: !!float 123 (float via explicit data type prefixed by !!) <br/>
+e: !!str 123 (string via explicit type) <br/>
+f: true (or false) <br/>
 g: !myClass {name: Chetan, dob: "21-08-1989"} (Local data type. use a single exclamation mark !)
 
 
 ### Yaml Validator
-- http://www.yamllint.com/
+- http://www.yamllint.com/ <br/>
 - https://codebeautify.org/yaml-validator
-
 
