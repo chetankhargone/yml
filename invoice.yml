@@ -1,0 +1,36 @@
+---
+receipt:     Customer Invoice
+date:        10-09-2020
+customer:
+    first_name:   Chetan
+    family_name:  Gupta
+
+items:
+    - item_no:   A4786
+      description:  Veg Biryani
+      price:     150.12
+      quantity:  2
+
+    - item_no:   E1628
+      description:   "Gulab Jamun"
+      weight:      100
+      price:     90.57
+      quantity:  4
+
+bill-to:  &id001
+    street: | #Multiline string => one preserving newlines (using the | character)
+            181,Tilak Path
+            
+            Gadariya Mohalla
+    city:   Khargone
+    state:  MP
+
+ship-to:  *id001
+# By default, the leading indentation (of the first line) and trailing whitespace is stripped
+specialDelivery:  > # Multiline string => one that folds the newlines (using the > character). Folded text converts newlines to spaces and removes leading whitespace.
+    Follow the Yellow Brick
+    Road to the Emerald City.
+
+    Pay no attention to the
+    man behind the curtain.
+...
