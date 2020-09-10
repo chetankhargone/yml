@@ -1,0 +1,26 @@
+---
+# Sample yaml file for a company data
+company:
+  CEO: "Chetan Gupta"
+  COE:
+    - dotnet
+    - java
+    - bigdata
+    - ai
+  dotnet: 
+    head: Chetan
+    email: dotnet-coe@dStudio.in
+    headCount: 100
+    isActive: true
+  java:
+    head: Vishal
+    email: java-coe@dStudio.in
+    headCount: 50
+    isActive: false
+  postal: &id001
+    street: Tilak Path
+    city: Khargone
+    pin: 451001
+  billing: *id001
+
+...  

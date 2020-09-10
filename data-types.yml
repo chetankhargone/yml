@@ -1,0 +1,23 @@
+a: 123 #(integer) 
+b: "Test" #(string)
+c: 123.00 #(float)
+d: !!float 123 #(float via explicit data type prefixed by !!)
+e: !!str 123 #(string via explicit type)
+f: true #(or false)
+g: !myClass {name: Chetan, dob: "21-08-1989"} #(Local data type. use a single exclamation mark !)
+
+
+
+
+
+# Array/Lists
+Students:
+  - Chetan # - (dash) indicates that's it's an item in array
+  - Vishal
+  - Rajat
+  - Vijay
+
+KeyValut: # - Dictionary/Map = Key value pair
+  type: json 
+  curYear: 2020
+  city: Khargone
